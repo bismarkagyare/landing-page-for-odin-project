@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* max-width: 1100px; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-img {
+    width: 400px;
+    height: 400px;
+}
+
+.other-img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #efe7eb;
+    font-size: 18px;
+}
+
+.top-container {
+    background-color: #1f2937;
+    padding: 20px 100px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-text {
+    /* display: flex;
+    flex-wrap: wrap;
+    height: auto; */
+    margin-top: 50px;
+}
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #efe7eb;
+    margin: 25px 0;
+}
+
+/* using flex here */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.top-btn {
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* middle section some random information */
+
+.random-container {
+    background-color: #fff;
+    padding: 20px 100px;
+    /* margin-bottom: 50px; */
+}
+
+.random-head {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.img p {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 80px 100px;
+}
+
+.quote-container p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-container .author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.action-container {
+    padding: 80px 100px;
+}
+
+.action-card {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    padding: 70px 0;
+    border-radius: 10px;
+}
+
+.action-message h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.action-message p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up .action-btn {
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: lighter;
+    border: 1px solid #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 30px;
+    color: #fff;
+}
